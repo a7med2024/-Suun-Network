@@ -8,8 +8,8 @@ function clean(text) {
         return text;
 }
 
-const prefix = "*";
-const token = "NTIzMDkzNzYwNjA3NzgwODg5.DvUiGw.EnecscqGAKTeQxFPGduvJ6oNEmg";
+const prefix = "#";
+const token = "NTI3NTExNTI0MDU5NjQzOTA0.DwU0JA.zPA7n-WmCamK7JO9pXdvtXWBra0";
 
 client.on("ready", () => {
   console.log("Vulnix | Logged in! Server count: ${client.guilds.size}");
@@ -101,7 +101,7 @@ client.on("message", async message => {
 client.on('ready', function(){
   client.user.setStatus("dnd");
     var ms = 40000 ;	
-    var setGame = ['This bot by a7med','*help|-----Tickity-IV-----'];	
+    var setGame = ['This bot by a7med','#help|-Suun Network'];	
     var i = -1;	
     var j = 0;	
     setInterval(function (){	
